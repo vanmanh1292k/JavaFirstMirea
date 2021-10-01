@@ -1,4 +1,4 @@
-package ru.mirea.task7;
+package ru.mirea.task7.Movable;
 
 public interface Movable {
     public void moveUp();

@@ -1,4 +1,4 @@
-package ru.mirea.task7;
+package ru.mirea.task7.Shape;
 
 public class Square extends Rectangle {
     public Square() {

@@ -1,4 +1,4 @@
-package ru.mirea.task7;
+package ru.mirea.task7.Movable;
 
 public class TestMovable {
     public static void main(String[] args) {

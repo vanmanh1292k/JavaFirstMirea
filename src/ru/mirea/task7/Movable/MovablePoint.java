@@ -1,4 +1,4 @@
-package ru.mirea.task7;
+package ru.mirea.task7.Movable;
 
 public class MovablePoint implements Movable {
     int x, y, xSpeed, ySpeed;
