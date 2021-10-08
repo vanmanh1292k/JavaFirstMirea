@@ -12,3 +12,4 @@ public class TestSum {
         System.out.print("sum: " + sum(number));
     }
 }
+
