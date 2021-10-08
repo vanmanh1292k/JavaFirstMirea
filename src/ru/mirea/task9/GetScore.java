@@ -51,8 +51,8 @@ public class GetScore extends JPanel {
         jcomp4.setBounds (205, 75, 100, 25);
         jcomp5.setBounds (90, 110, 100, 25);
         jcomp6.setBounds (205, 110, 100, 25);
-        jcomp7.setBounds (70, 165, 100, 25);
-        jcomp8.setBounds (190, 165, 100, 25);
+        jcomp7.setBounds (70, 165, 120, 25);
+        jcomp8.setBounds (200, 165, 120, 25);
 
         jcomp7.addActionListener(new ActionListener() {
             @Override
