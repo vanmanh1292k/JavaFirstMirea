@@ -1,3 +1,5 @@
+//tính tổng
+
 package ru.mirea.task10;
 
 import java.util.Scanner;

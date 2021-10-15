@@ -1,3 +1,4 @@
+
 package ru.mirea.task10;
 
 import java.util.Scanner;
@@ -27,3 +28,4 @@ public class TestPalindrome {
 }
 // abcba
 // abba
+// abc

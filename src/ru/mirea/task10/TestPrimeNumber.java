@@ -1,3 +1,5 @@
+
+// x định số ng tố
 package ru.mirea.task10;
 
 import java.util.Scanner;
