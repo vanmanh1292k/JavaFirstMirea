@@ -18,6 +18,7 @@ public class TestPatient {
                 "ID", "FirstName", "Name", "Birthday", "Gender", "Birthplace", "AGE");
     }
 
+
     public static void showData(Patient patient){
         System.out.printf("%-12s%-12s%-12s%-12s%-12s%-12s%-12.2f\n",
                 patient.getID(), patient.getFirstName(), patient.getName(), patient.getBirthday(), patient.getGender(), patient.getBirthplace(), patient.getAGE());
