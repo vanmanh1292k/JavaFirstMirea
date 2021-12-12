@@ -31,7 +31,7 @@ public class GUIPatient extends JFrame implements ActionListener
         lbtitle.setForeground(Color.red);
         this.add(lbtitle);
     }
-    //Tao Giao Dien Sinh Vien
+    //Tao Giao Dien Benh Nhan
     JPanel pnDetail;
     void Gui()
     {

@@ -35,7 +35,7 @@ public class PatientFunction extends GUIPatient
         }
         catch(IOException io)
         {
-            JOptionPane.showMessageDialog(null,"Error: Entering Student Code Must Enter Numer !");
+            JOptionPane.showMessageDialog(null,"Error: Entering Patient Code Must Enter Numer !");
         }
         finally
         {
@@ -82,7 +82,7 @@ public class PatientFunction extends GUIPatient
             if(ListSV[i].getMaBN()==ListSV[j].getMaBN())
             {
                 KTMaBN=false;
-                JOptionPane.showMessageDialog(this,"Error : Student ID Exists !");
+                JOptionPane.showMessageDialog(this,"Error : Patient ID Exists !");
                 break;
             }
         }
@@ -108,7 +108,7 @@ public class PatientFunction extends GUIPatient
         }
         if(tflop.getText().trim().compareTo("")==0)
         {
-            JOptionPane.showMessageDialog(this,"Error : Class Can't Be Empty !");
+            JOptionPane.showMessageDialog(this,"Error : Room Can't Be Empty !");
             return false;
         }
         else return true;
@@ -173,7 +173,7 @@ public class PatientFunction extends GUIPatient
     {
         if(cbmabn.getSelectedItem().toString().compareTo("Select ID")==0)
         {
-            JOptionPane.showMessageDialog(null,"You Have not Selected the Student ID !");
+            JOptionPane.showMessageDialog(null,"You Have not Selected the Patient ID !");
             tfngaysinh.setText("");
             tfCoSo.setText("");
             tfKhoa.setText("");
@@ -356,7 +356,7 @@ public class PatientFunction extends GUIPatient
         }
         if(e.getSource()==bntTimkiem)
         {
-            if(bntTimkiem.getText().compareTo("Find Student")==0)
+            if(bntTimkiem.getText().compareTo("Find Patient")==0)
             {
                 GuiTK();
                 SearchSV();
@@ -378,7 +378,7 @@ public class PatientFunction extends GUIPatient
                 bntTimkiem.setEnabled(true);
                 bntLuu.setEnabled(false);
                 bntThem.setText("Add");
-                bntTimkiem.setText("Find Student");
+                bntTimkiem.setText("Find Patient");
             }
         }
         if(e.getSource()==cbmabn)
@@ -389,7 +389,7 @@ public class PatientFunction extends GUIPatient
         {
             if(cbmabn.getSelectedItem().toString().compareTo("Select ID")==0)
             {
-                JOptionPane.showMessageDialog(null,"You Have Not Selected Student Information To Edit? ");
+                JOptionPane.showMessageDialog(null,"You Have Not Selected Patient Information To Edit? ");
             }
             else
             {
