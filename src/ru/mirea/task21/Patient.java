@@ -11,7 +11,8 @@ public class Patient {
     private String Birthplace;
     private float AGE;
 
-    public Patient(String ID, String FirstName, String Name, String Birthday, String Gender, String Birthplace, float AGE )
+    public Patient(String ID, String FirstName, String Name, String
+            Birthday, String Gender, String Birthplace, float AGE )
     {
         this.ID = ID;
         this.FirstName = FirstName;
