@@ -31,8 +31,10 @@ public class PatientTest {
 
     @Test
     public void testToString() {
-        String expectedResult = "Patient{ID='001', Name='Jennie ', Birthday='20-10-2003', Gender='Female', AGE=15, NumberOfDays=20, HaveInsuranceCard=false}";
-        Patient patient = new Patient("001", "Jennie ", "20-10-2003","Female",15,20, false);
+        String expectedResult = "Patient{ID='001', Name='Jennie ', Birthday='20-10-2003'," +
+                " Gender='Female', AGE=15, NumberOfDays=20, HaveInsuranceCard=false}";
+        Patient patient = new Patient("001", "Jennie ", "20-10-2003",
+                "Female",15,20, false);
         String actualResult = patient.toString();
         assertEquals(expectedResult,actualResult);
     }

@@ -82,7 +82,6 @@ public class Patient {
 
     }
 
-
     @Override
     public String toString() {
         return "Patient{" +
