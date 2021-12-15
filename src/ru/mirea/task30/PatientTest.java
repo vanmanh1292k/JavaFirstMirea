@@ -6,10 +6,24 @@ import static org.junit.Assert.*;
 
 public class PatientTest {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     @org.junit.Test
     public void getHospitalsFee() {
         int hospitalFeesFor20Days = 40000;
-        Patient patient = new Patient("001", "Jennie ", "20-10-2003","Female",15,20, false);
+        Patient patient = new Patient("001", "Jennie ", "20-10-2003",
+                "Female",15,20, false);
         int actualResult = patient.getHospitalsFee();
         assertEquals(hospitalFeesFor20Days,actualResult);
     }
