@@ -3,105 +3,43 @@
   <ID>JAVA</ID>
   <OriginalElement>ru.mirea.task26</OriginalElement>
   <nodes>
-    <node x="331.94489247311833" y="79.0">ru.mirea.task26.ItWalk</node>
-    <node x="1.446236559139777" y="0.0">ru.mirea.task26.Walk</node>
-    <node x="116.0" y="79.0">ru.mirea.task26.CantWalk</node>
-    <node x="261.61290322580646" y="160.0">ru.mirea.task26.PatientBrokeHisArm</node>
-    <node x="75.61290322580643" y="160.0">ru.mirea.task26.BrokenLegPatient</node>
-    <node x="173.15591397849465" y="241.0">ru.mirea.task26.PatientStatus</node>
-    <node x="0.0" y="79.0">ru.mirea.task26.Patient</node>
+    <node x="0.0" y="232.0">ru.mirea.task26.ItWalk</node>
+    <node x="112.0" y="232.0">ru.mirea.task26.CantWalk</node>
+    <node x="65.75" y="153.0">ru.mirea.task26.Walk</node>
+    <node x="0.0" y="79.0">ru.mirea.task26.PatientBrokeHisArm</node>
+    <node x="203.0" y="79.0">ru.mirea.task26.BrokenLegPatient</node>
+    <node x="140.75" y="0.0">ru.mirea.task26.Patient</node>
+    <node x="0.0" y="306.0">ru.mirea.task26.PatientStatus</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="ru.mirea.task26.BrokenLegPatient" target="ru.mirea.task26.Patient" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="286.0" y="54.0" />
+      <point x="188.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
     <edge source="ru.mirea.task26.CantWalk" target="ru.mirea.task26.Walk" relationship="REALIZATION">
       <point x="0.0" y="-14.5" />
-      <point x="172.5" y="59.0" />
-      <point x="277.81989247311833" y="59.0" />
-      <point x="277.81989247311833" y="49.0" />
-      <point x="70.61290322580643" y="49.0" />
-      <point x="27.66666666666667" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.BrokenLegPatient" target="ru.mirea.task26.Patient" relationship="GENERALIZATION">
-      <point x="41.5" y="-14.5" />
-      <point x="200.11290322580643" y="139.0" />
-      <point x="182.5" y="139.0" />
-      <point x="182.5" y="129.0" />
-      <point x="72.0" y="129.0" />
-      <point x="24.0" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.Patient" target="ru.mirea.task26.Walk" relationship="DEPENDENCY">
-      <point x="-24.0" y="-14.5" />
-      <point x="24.0" y="59.0" />
-      <point x="15.27956989247312" y="59.0" />
-      <point x="-27.666666666666668" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.BrokenLegPatient" target="ru.mirea.task26.CantWalk" relationship="CREATE">
-      <point x="-41.5" y="-14.5" />
-      <point x="117.11290322580643" y="139.0" />
-      <point x="172.5" y="139.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.PatientStatus" target="ru.mirea.task26.Patient" relationship="CREATE">
-      <point x="0.0" y="-14.5" />
-      <point x="241.15591397849465" y="215.0" />
-      <point x="5.112903225806434" y="215.0" />
-      <point x="5.112903225806434" y="139.0" />
-      <point x="24.0" y="139.0" />
-      <point x="-24.0" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.PatientStatus" target="ru.mirea.task26.PatientBrokeHisArm" relationship="CREATE">
-      <point x="0.0" y="-14.5" />
-      <point x="241.15591397849465" y="215.0" />
-      <point x="353.11290322580646" y="215.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.PatientStatus" target="ru.mirea.task26.ItWalk" relationship="CREATE">
-      <point x="0.0" y="-14.5" />
-      <point x="241.15591397849465" y="215.0" />
-      <point x="455.11290322580646" y="215.0" />
-      <point x="455.11290322580646" y="139.0" />
-      <point x="377.94489247311833" y="139.0" />
+      <point x="168.5" y="207.0" />
+      <point x="107.25" y="207.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="ru.mirea.task26.PatientBrokeHisArm" target="ru.mirea.task26.Patient" relationship="GENERALIZATION">
-      <point x="-45.75" y="-14.5" />
-      <point x="307.36290322580646" y="139.0" />
-      <point x="182.49999999999997" y="139.0" />
-      <point x="182.5" y="129.0" />
-      <point x="72.0" y="129.0" />
-      <point x="24.0" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.Patient" target="ru.mirea.task26.Walk" relationship="TO_ONE">
-      <point x="24.0" y="-14.5" />
-      <point x="72.0" y="59.0" />
-      <point x="42.94623655913978" y="59.0" />
+      <point x="0.0" y="-14.5" />
+      <point x="91.5" y="54.0" />
+      <point x="188.75" y="54.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="ru.mirea.task26.ItWalk" target="ru.mirea.task26.Walk" relationship="REALIZATION">
       <point x="0.0" y="-14.5" />
-      <point x="377.94489247311833" y="59.0" />
-      <point x="277.81989247311833" y="59.0" />
-      <point x="277.81989247311833" y="49.0" />
-      <point x="70.61290322580643" y="49.0" />
-      <point x="27.66666666666667" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.PatientBrokeHisArm" target="ru.mirea.task26.ItWalk" relationship="CREATE">
-      <point x="45.75" y="-14.5" />
-      <point x="398.86290322580646" y="139.0" />
-      <point x="377.94489247311833" y="139.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="ru.mirea.task26.PatientStatus" target="ru.mirea.task26.BrokenLegPatient" relationship="CREATE">
-      <point x="0.0" y="-14.5" />
-      <point x="241.15591397849465" y="215.0" />
-      <point x="158.61290322580643" y="215.0" />
+      <point x="46.0" y="207.0" />
+      <point x="107.25" y="207.0" />
       <point x="0.0" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="228.0" y="135.0" />
-  <SelectedNodes>
-    <node>ru.mirea.task26.BrokenLegPatient</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="184.5" y="167.5" />
+  <SelectedNodes />
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

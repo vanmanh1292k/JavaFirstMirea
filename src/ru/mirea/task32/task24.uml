@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task24</OriginalElement>
+  <nodes>
+    <node x="0.0" y="79.0">ru.mirea.task24.PatientFunction</node>
+    <node x="0.0" y="153.0">ru.mirea.task24.Patient</node>
+    <node x="16.0" y="0.0">ru.mirea.task24.GUIPatient</node>
+    <node x="141.0" y="153.0">ru.mirea.task24.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task24.PatientFunction" target="ru.mirea.task24.GUIPatient" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="112.0" y="91.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
