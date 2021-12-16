@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task25</OriginalElement>
+  <nodes>
+    <node x="534.2770270270271" y="245.0">ru.mirea.task25.main</node>
+    <node x="0.0" y="81.0">ru.mirea.task25.SimpleHospitalFees</node>
+    <node x="507.25" y="164.0">ru.mirea.task25.HospitalFeesWithoutInsuranceCard</node>
+    <node x="228.25000000000003" y="164.0">ru.mirea.task25.HospitalFeesWithInsuranceCard</node>
+    <node x="245.12837837837841" y="0.0">ru.mirea.task25.HospitalsFee</node>
+    <node x="201.0" y="81.0">ru.mirea.task25.HospitalsFeeDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task25.main" target="ru.mirea.task25.SimpleHospitalFees" relationship="CREATE">
+      <point x="-20.75" y="-14.5" />
+      <point x="555.0270270270271" y="224.0" />
+      <point x="355.27702702702703" y="224.0" />
+      <point x="355.27702702702703" y="214.0" />
+      <point x="90.5" y="214.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.SimpleHospitalFees" target="ru.mirea.task25.HospitalsFee" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="90.5" y="60.0" />
+      <point x="219.65540540540542" y="60.0" />
+      <point x="219.65540540540542" y="50.0" />
+      <point x="267.62837837837844" y="50.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.main" target="ru.mirea.task25.HospitalFeesWithoutInsuranceCard" relationship="CREATE">
+      <point x="-20.75" y="-14.5" />
+      <point x="555.0270270270271" y="224.0" />
+      <point x="355.27702702702703" y="224.0" />
+      <point x="355.27702702702703" y="214.0" />
+      <point x="647.75" y="214.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.HospitalsFeeDecorator" target="ru.mirea.task25.HospitalsFee" relationship="TO_ONE">
+      <point x="50.5" y="-14.5" />
+      <point x="352.5" y="60.0" />
+      <point x="312.62837837837844" y="60.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.main" target="ru.mirea.task25.HospitalFeesWithInsuranceCard" relationship="CREATE">
+      <point x="-20.75" y="-14.5" />
+      <point x="555.0270270270271" y="224.0" />
+      <point x="355.27702702702703" y="224.0" />
+      <point x="355.27702702702703" y="214.0" />
+      <point x="357.75" y="214.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.HospitalFeesWithInsuranceCard" target="ru.mirea.task25.HospitalsFeeDecorator" relationship="GENERALIZATION">
+      <point x="-64.75" y="-14.5" />
+      <point x="293.0" y="142.0" />
+      <point x="302.0" y="142.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.HospitalFeesWithoutInsuranceCard" target="ru.mirea.task25.HospitalsFeeDecorator" relationship="GENERALIZATION">
+      <point x="-70.25" y="-14.5" />
+      <point x="577.5" y="142.0" />
+      <point x="302.0" y="142.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.HospitalFeesWithInsuranceCard" target="ru.mirea.task25.HospitalsFee" relationship="DEPENDENCY">
+      <point x="64.75" y="-14.5" />
+      <point x="422.5" y="132.0" />
+      <point x="505.0" y="132.0" />
+      <point x="505.0" y="60.0" />
+      <point x="663.3783783783784" y="60.0" />
+      <point x="663.3783783783784" y="50.0" />
+      <point x="357.62837837837833" y="50.0" />
+      <point x="44.99999999999994" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.HospitalFeesWithoutInsuranceCard" target="ru.mirea.task25.HospitalsFee" relationship="DEPENDENCY">
+      <point x="70.25" y="-14.5" />
+      <point x="718.0" y="142.0" />
+      <point x="660.9054054054054" y="142.0" />
+      <point x="660.9054054054054" y="60.0" />
+      <point x="663.3783783783784" y="60.0" />
+      <point x="663.3783783783784" y="50.0" />
+      <point x="357.62837837837833" y="50.0" />
+      <point x="44.99999999999994" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.main" target="ru.mirea.task25.HospitalsFee" relationship="DEPENDENCY">
+      <point x="20.75" y="-14.5" />
+      <point x="596.5270270270271" y="224.0" />
+      <point x="798.75" y="224.0" />
+      <point x="798.75" y="60.0" />
+      <point x="663.3783783783784" y="60.0" />
+      <point x="663.3783783783784" y="50.0" />
+      <point x="357.62837837837833" y="50.0" />
+      <point x="44.99999999999994" y="14.5" />
+    </edge>
+    <edge source="ru.mirea.task25.HospitalsFeeDecorator" target="ru.mirea.task25.HospitalsFee" relationship="REALIZATION">
+      <point x="-50.5" y="-14.5" />
+      <point x="251.5" y="60.0" />
+      <point x="219.65540540540542" y="60.0" />
+      <point x="219.65540540540542" y="50.0" />
+      <point x="267.62837837837844" y="50.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="399.5" y="137.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
